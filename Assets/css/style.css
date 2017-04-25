@@ -1,0 +1,20 @@
+body {
+width: 960px;
+}
+
+#name {
+  display: inline-block;
+  width: 370px;
+  height: 80px;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  text-align:center;
+  }
+
+#nav {
+  display: inline-block;
+  background-color: #ffffff;
+  text-align: right;
+  width: 100%;
+}
