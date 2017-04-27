@@ -2,39 +2,67 @@
 <html lang="en-us">
 <head>
 		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="Assets/css/reset.css">
 		<link rel="stylesheet" type="text/css" href="Assets/css/style.css">
 		<title>Porfolio Index Page</title>
 </head>
 
-  <body>
+<body>
+
+<!--Nav bar with internal page links-->
+<section id = "nav">
+	<div id "navlinks">
+		<a href="" class="link">About</a>
+		<a href="" class="link">Portfolio</a>
+		<a href="" class="link">Contact</a>
+	</div>
+</section>
 
 <!--Name Block-->
-<div id = "name">
+<section id = "name">
 	<h1>Jarrod Costopulos</h1>
-</div>
+</section>
 
-<!--Nav bar with links-->
-<div id = "nav">
-<a href="">About</a>
-<a href="">Portfolio</a>
-<a href="">Contact</a>
-</div>
+
 
 <!--Body, About and Connect blocks-->
-<div id = "body">
-		<div id = "about">
+<section id = "main">
+
+		<!--About section with written bio-->
+		<section id = "about">
 			<p>About Me</p>
-			<img src="">myphoto</img>
-		</div>
-			<div id = "connect">
+				<!--line break-->
+				<br>
+					<hr class="style1">
+				<br>
+			<img id = "myphoto" src="Assets/images/Shades.JPG" alt="myphoto">
+		</section>
+
+			<!--connect section with social links-->
+			<section id = "connect">
 				<p>Connect with me</p>
-			</div>
-</div>
+					<!--line break-->
+					<br>
+						<hr class="style1">
+					<br>
+				<!--Icon links-->
+				<div id = "connectlinks">
+					<a href="https://github.com/DigitalTheorist" class="img">
+						<img src="Assets/images/githubsquare.png" alt="GitHub" width="55" height="55" border="0">
+					</a>
+						<a href="https://www.linkedin.com/in/jarrod-costopulos-91a071a/" class="img">
+							<img src="Assets/images/linkedin.png" alt="Linkedin" width="55" height="55" border="0">
+						</a>
+							<a href="http://stackoverflow.com/users/7458645/jarrod-costopulos" class="img">
+								<img src="Assets/images/stackoverflow.png" alt="Stackoverflow" width="55" height="50" border="0">
+							</a>
+					</div>
+			</section>
+</section>
 
-<div id = "footer">
+<section id = "footer">
 	<p>copyright 2016 Jarrod Costopulos</p>
-</div>
+</section>
 
 
-
-  </body>
+</body>

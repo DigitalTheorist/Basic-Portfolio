@@ -2,37 +2,87 @@
 <html lang="en-us">
 <head>
 		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="Assets/css/reset.css">
 		<link rel="stylesheet" type="text/css" href="Assets/css/style.css">
 		<title>Porfolio Index Page</title>
 </head>
 
   <body>
 
-<!--Name Block-->
-<div id = "name">
-	<h1>Jarrod Costopulos</h1>
-</div>
+<!--Nav bar with internal page links-->
+<section id = "nav">
+	<a href="" class="link">About</a>
+	<a href="" class="link">Portfolio</a>
+	<a href="" class="link">Contact</a>
+</section>
 
-<!--Nav bar with links-->
-<div id = "nav">
-<a href="">About</a>
-<a href="">Portfolio</a>
-<a href="">Contact</a>
-</div>
+<!--Name Block-->
+<section id = "name">
+	<h1>Jarrod Costopulos</h1>
+</section>
 
 <!--Body, Contact and Connect blocks-->
-<div id = "body">
-		<div id = "contact">
-			<p>Contact me</p>
-		</div>
-			<div id = "connect">
-				<p>Connect with me</p>
-			</div>
-</div>
+<section id = "main">
 
-<div id = "footer">
-	<p>copyright 2016 Jarrod Costopulos</p>
+		<!--About section with input fields-->
+
+		<section id = "about">
+			<p>Contact me</p>
+
+			<!--line break-->
+				<br>
+					<hr class="style1">
+				<br>
+
+				<!--CONTACT input fields-->
+<div id= "contact">
+  <form action="/action_page.php">
+
+    		<label for="fname">Name</label>
+						<br>
+    			<input type="text" id="fname" name="firstname" placeholder="Your Name..">
+						<br>
+    		<label for="email">Email</label>
+						<br>
+  			  <input type="email" id="email" name="email" placeholder="Your email..">
+						<br>
+				<label for="subject">Message</label>
+						<br>
+    			<textarea id="message" name="message" placeholder="Write something.." style="height:125px"></textarea>
+						<br>
+    		<input type="submit" value="Submit">
+
+  </form>
 </div>
+		</section>
+
+			<!--connect section with social links-->
+			<section id = "connect">
+				<p>Connect with me</p>
+
+				<!--line break-->
+					<br>
+						<hr class="style1">
+					<br>
+
+				<!--Icon links-->
+				<div id = "connectlinks">
+					<a href="https://github.com/DigitalTheorist" class="img">
+						<img src="Assets/images/githubsquare.png" alt="GitHub" width="55" height="55" border="0">
+					</a>
+						<a href="https://www.linkedin.com/in/jarrod-costopulos-91a071a/" class="img">
+							<img src="Assets/images/linkedin.png" alt="Linkedin" width="55" height="55" border="0">
+						</a>
+							<a href="http://stackoverflow.com/users/7458645/jarrod-costopulos" class="img">
+								<img src="Assets/images/stackoverflow.png" alt="Stackoverflow" width="55" height="50" border="0">
+							</a>
+					</div>
+			</section>
+</section>
+
+<section id = "footer">
+	<p>copyright 2016 Jarrod Costopulos</p>
+</section>
 
 
 
