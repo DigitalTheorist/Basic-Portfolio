@@ -4,11 +4,17 @@ body {
   margin-right: auto;
 }
 
-/*Removes Hyperlink underlining*/
+/*Removes img link underlining*/
 .img {
   text-decoration: none;
   position: relative;
   top: 45px;
+}
+
+#Stackoverflow {
+  position: relative;
+  top: 42px;
+  right: -1px;
 }
 
 /*Removes link underlining*/
@@ -16,7 +22,7 @@ body {
   text-decoration: none;
 }
 
-/* Style inputs with type="text", select elements and textareas */
+/* Styles TEXT input fields */
 input[type=text], select, textarea {
     width: 88%; /* Full width */
     margin-right: auto;
@@ -30,7 +36,7 @@ input[type=text], select, textarea {
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
-/* Style inputs with type="text", select elements and textareas */
+/* Styles EMAIL input fields */
 input[type=email], select, textarea {
     width: 88%; /* Full width */
     margin-right: auto;
@@ -44,11 +50,10 @@ input[type=email], select, textarea {
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
-
-
 #contact {
 position: relative;
 left: 40px;
+padding: 15px;
 }
 
 #nav {
@@ -88,19 +93,22 @@ left: 40px;
   position: relative;
   bottom: 120px;
   background-image: url("../Images/hip-square.png");
-  height: 500px;
+  height: 800px;
+  width: auto;
+  padding: 20px;
   border-bottom: 5px solid #4aaaa5;
   }
 
-/*Written Bio block with photo*/
+/*Content block*/
 #about {
   text-align: left;
   background-color: #ffffff;
   position: relative;
-  top: 40px;
-  left: 30px;
-  height: 420px;
+  top: 36px;
+  left: 2px;
+  height: auto;
   width: 650px;
+  padding: 10px;
   font-family: 'Georgia', Times, Times New Roman, serif;
   color: #4aaaa5;
 }
@@ -113,20 +121,58 @@ left: 40px;
 
 /*BioPhoto*/
 #myphoto {
-  position: relative;
-  top: 25px;
-  left: 40px;
+  float: left;
+  clear: both;
+  margin: 10px;
   height: 225px;
   width: 200px;
   text-align: center;
 }
 
+/*About me page text*/
+#lorem {
+  line-height: 1.5;
+  color: #777777;
+  margin: 10px;
+}
+
+#projects {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#projectlinks {
+  float: left;
+  display: inline-block;
+}
+
+.projectimg {
+  height: 200px;
+  width: 200px;
+  margin: 15px;
+}
+
+.projectbanner {
+  position: absolute;
+  float: left;
+  left: 25px;
+  width: 200px;
+  height: 80px;
+  background-color: #4aaaa5;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 80px;
+  font-size: 35px;
+  color: #ffffff;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
 /*Icon Links--GitHub, linkedin & Stackoverflow--*/
 #connect {
-  float: right;
-  position: relative;
-  bottom: 380px;
-  right: 35px;
+  position: absolute;
+  padding: 10px;
+  bottom: 594px;
+  left: 701px;
   width: 230px;
   height: 170px;
   background-color: #ffffff;
